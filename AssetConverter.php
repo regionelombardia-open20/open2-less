@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Aria S.p.A.
+ * OPEN 2.0
+ *
+ *
+ * @package    Open20Package
+ * @category   CategoryName
+ */
+
 namespace cakebake\lessphp;
 
 use Yii;
@@ -9,7 +18,9 @@ use Yii;
  *
  * It is used by [[AssetManager]] to convert files after they have been published.
  *
+ * @author cakebake (Jens A.)
  * @since 2.0
+ * @see https://github.com/oyejorge/less.php
  */
 class AssetConverter extends \yii\web\AssetConverter
 {
